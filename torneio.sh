@@ -8,7 +8,7 @@ then
 fi
 
 touch comida.csv
-touch comida.csv
-touch comida.csv
+touch reputacao.csv
+touch recompensa.csv
 
-pypy simulador.py
+python simulador.py
