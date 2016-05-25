@@ -25,8 +25,6 @@ class Torneio(object):
         self.bugados = {}
         self.M = [] #série de m
 
-
-
     @property
     def p(self):
         if self.jogadores is None:
@@ -201,10 +199,10 @@ class Torneio(object):
 
 if __name__ == "__main__":
     T = Torneio()
-    #T.inicializa_jogadores()
-    #R = open("recompensa.csv", "a")
-    #T.vai(200000)
-    #R.close()
+    T.inicializa_jogadores()
+    R = open("recompensa.csv", "a")
+    T.vai(200000)
+    R.close()
     T.plota_series()
     P.show()
 
